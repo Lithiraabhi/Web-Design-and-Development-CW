@@ -1,0 +1,41 @@
+/* Add a black background color to the top navigation */
+body{
+    margin:0;
+    background-color: #00f2
+}
+
+#logo1{
+    height: 90px;
+    float: left;
+}
+
+.topnav {
+    background-color: #146fdf;
+    overflow: hidden;
+    height: 90px;
+  }
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma;
+    margin-top: 18px;
+    transition: 0.5s;
+  }
+  
+  #idhome{
+    margin-left: 350px;
+  }
+
+.topnav a:hover {
+    background-color: #0f5ebf;
+    border-radius: 4px;
+    color: rgb(243, 237, 237);
+  }
+  
+
+

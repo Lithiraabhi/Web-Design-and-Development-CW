@@ -1,0 +1,14 @@
+ /* SiteMap font */  
+body{
+    font-family:'Segoe UI', Tahoma; 
+	background-color:#146fdf;
+    
+ } 
+ /* SiteMap image */  
+ #BackImg{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+	z-index: -1;
+ }
+ 
