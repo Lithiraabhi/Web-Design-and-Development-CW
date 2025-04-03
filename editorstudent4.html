@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Editor</title>
+    <link rel="stylesheet" href="cssFiles/navbar.css">
+	
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .about-wrapper{
+            height: 300px;
+
+
+        }
+        .about-left{                          
+            background-color: #fff;
+            background-image: linear-gradient(to top,#fff 0%, #fff 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 700px;
+        }
+
+        .about-left h1{
+            color: #00479e;
+        }
+        
+        .about-img img{
+            display:block;
+            width: 250px;
+            animation:float 5s ease-in-out infinite;
+            filter: drop-shadow(10px 20px 40px);
+            border-radius: 25px;
+        }
+        .about-para a{
+            text-decoration: none;
+            color:#fd0000
+        }
+         
+        
+        .about-right{
+            font-family: sans-serif;
+            background:#fff(0, 12, 17);
+            height: 850px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0 .5rem;
+            padding-top: 40px;
+            text-align: center;
+            color:#00479e;
+        }
+        .about-right h1{
+            font-size: 5rem;
+            text-transform: uppercase;
+        }
+        
+        .about-right h2{
+            font-weight: 700;
+        }
+        
+        .about-para p{
+            font-weight: 700;
+            padding: 0.5rem;
+            opacity: 0.9;
+            font-weight: bold;
+            font-family: 'Edu VIC WA NT Beginner', cursive;
+            font-family: 'Ibarra Real Nova', serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        @media screen and (min-width: 992px){
+            .about-wrapper{
+                display: grid;
+                grid-template-columns: repeat(2, 2fr);
+            }
+        
+            .about-left{
+                position: relative;
+                height: 100%;
+            }
+            @keyframes float{
+                0%{transform:translatey(0px);}
+                50%{transform:translatey(-20px);}
+                100%{transform:translatey(0px);}
+                
+            }
+        
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="images/long logo.png" id="logo1">
+        <div class="topnav">
+            
+            <a id="idhome" href="home.html">Home</a>
+            <a href="sitemap.html">Site Map</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="shop.html">Shop</a>
+            <a href="feedback.html">Feedback</a>
+			<a href="team.html">About Us</a>
+            <a href="profile.html">Profile</a>
+        </div>
+    </header>
+    <div class = "about-wrapper">
+        <div class = "about-left">
+            <div class = "about-img">
+                <img src = "members/image3.jpg" alt = "Member 3" style="width:460px;height:565px;">
+            </div>
+            <h1>Lithira Abhimana Yapa</h1>
+            
+        </div>
+        <div class = "about-right">
+            <h2>Welcome to my page!</h2><br>
+            <div class = "about-para">
+                <h2><u>ABOUT ME</u></h2><br>
+                <h2>I am Lithira Abhimana yapa </h2><p>UOW ID: w2051795</p><p>IIT ID: 20230887 </p>
+                <h2><u><i>MY RESPONSIBILITY</i></u></h2><br>
+                <h3> Created Gallery</h3>    
+                <p><a href="gallery.html">linked to Gallery</a></p> <br>           
+                <h3> Created Site Map</h3>
+                <p><a href="sitemap.html"> linked to Site Map</a></p><br>
+                <h3> Created Additional content page </h3>
+                <p><a href="contentstudent4.html"> linked to the additional content page</a></p><br>
+                <h3> Created Page editor</h3>
+                <p><a href="editorStudent4.html"> linked to the page editor</a></p>
+            </div>  
+        </div>
+    </div> 
+        
+</body>
+</html>                    
+ 
